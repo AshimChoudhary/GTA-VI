@@ -1,12 +1,56 @@
-# React + Vite
+# 🚗 Grand Theft Auto VI (GTA 6) Fan Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually immersive and scroll-animated GTA 6 fan website built using **React.js** and **GSAP**. This project replicates the cinematic feel of Rockstar’s media using official visuals, motion effects, and a fully responsive layout. Hosted seamlessly on **Vercel**.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [https://gta-vi-peach.vercel.app/](https://gta-vi-peach.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+| Landing Page | Characters Section | Trailer Section |
+|--------------|--------------------|------------------|
+| ![Landing](./screenshots/landing.png) | ![Characters](./screenshots/characters.png) | ![Trailer](./screenshots/trailer.png) |
+
+---
+
+## 🚀 Tech Stack
+
+- **React.js** – Component-based UI
+- **GSAP** – Scroll-triggered animations and motion effects
+- **Tailwind CSS** – Utility-first styling
+- **Vercel** – Hosting and deployment
+
+---
+
+## 🎬 Features
+
+- ⚡ Smooth scroll-based animations using GSAP
+- 🎞️ Trailer video integration
+- 🎨 Stylish UI with official GTA VI visuals
+- 🌐 Responsive design for all screen sizes
+- 📽️ Cinematic experience with parallax and motion effects
+
+---
+
+## 🖼️ Media Attribution
+
+All images, SVGs, and video assets used in this project are sourced from **Rockstar Games**’ official media:
+
+- 🔗 [https://www.rockstargames.com/gta-vi](https://www.rockstargames.com/gta-vi)
+- 🔗 [https://www.rockstargames.com/videos](https://www.rockstargames.com/videos)
+
+This is a **fan-made portfolio project** and is not affiliated with or endorsed by Rockstar Games. All content rights belong to their respective owners.
+
+---
+
+## 🛠️ Getting Started Locally
+
+```bash
+git clone https://github.com/your-username/gta6-website.git
+cd gta6-website
+npm install
+npm run dev
+```
