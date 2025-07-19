@@ -1,14 +1,12 @@
-import { useRef } from 'react';
-import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import { useRef } from 'react';
 
 const Final = () => {
   const videoRef = useRef(null);
 
   useGSAP(() => {
-    gsap.set('.final-content', {
-      opacity: 0,
-    });
+    gsap.set('.final-content', { opacity: 0 });
 
     gsap.timeline({
       scrollTrigger: {
@@ -31,8 +29,8 @@ const Final = () => {
 
     tl.to('.final-content', {
       opacity: 1,
+      duration: 1,
       scale: 1,
-      duration: 2,
       ease: 'power1.inOut',
     });
 
@@ -47,21 +45,22 @@ const Final = () => {
         '<'
       );
     };
-  }, []);
+  });
 
   return (
     <section className="final">
       <div className="final-content size-full">
         <video
-          src="/videos/output3.mp4"
           ref={videoRef}
           muted
           playsInline
           preload="auto"
+          src="/videos/output3.mp4"
           className="size-full object-cover"
-        ></video>
+        />
       </div>
     </section>
   );
 };
+
 export default Final;
