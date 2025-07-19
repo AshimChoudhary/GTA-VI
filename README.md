@@ -50,7 +50,7 @@ This is a **fan-made portfolio project** and is not affiliated with or endorsed 
 
 ```bash
 git clone https://github.com/your-username/gta6-website.git
-cd gta6-website
+cd GTA-VI
 npm install
 npm run dev
 ```
