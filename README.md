@@ -10,9 +10,9 @@ A visually immersive and scroll-animated GTA 6 fan website built using **React.j
 
 ## 📸 Screenshots
 
-| Landing Page | Characters Section | Trailer Section |
+| Landing Page | Characters Section | Outro Section |
 |--------------|--------------------|------------------|
-| ![Landing](./screenshots/landing.png) | ![Characters](./screenshots/characters.png) | ![Trailer](./screenshots/trailer.png) |
+| ![Landing](./screenshots/landing.png) | ![Characters](./screenshots/characters.png) | ![Outro](./screenshots/Outro.png) |
 
 ---
 
